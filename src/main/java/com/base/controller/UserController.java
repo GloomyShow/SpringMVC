@@ -1,6 +1,8 @@
 package com.base.controller;
 
 
+import javax.annotation.Resource;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +25,10 @@ public class UserController extends BaseController {
 				.getLogger(UserController.class);
 
 		/** The user service. */
-		@Autowired
+//		@Autowired
+//		private UserService userService;
+		
+		@Resource(name="userService")
 		private UserService userService;
 
 		/**

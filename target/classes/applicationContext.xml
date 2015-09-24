@@ -18,7 +18,7 @@
 	<aop:aspectj-autoproxy />
 
 	<import resource="spring-db.xml" />
-	<import resource="spring-back.xml" />
+	<!--  <import resource="spring-back.xml" />-->
 	
 
 	<bean id="propertyConfiger"
