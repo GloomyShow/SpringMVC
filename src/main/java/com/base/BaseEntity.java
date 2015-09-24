@@ -1,12 +1,3 @@
-/**
- * 
- * BaseEntity.java
- * 2014-12-8
- * 596570
- * 
- * Copyright ©2014 顺丰科技有限公司  All rights reserved.
- * 
- */
 package com.base;
 
 import java.io.Serializable;

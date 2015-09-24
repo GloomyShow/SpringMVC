@@ -15,7 +15,7 @@ import com.base.util.ResultJson;
 /**
  * The Class UserServiceImpl.
  */
-//@SuppressWarnings("unused")
+
 @Service("userService")
 public class UserServiceImpl implements UserService {
 	

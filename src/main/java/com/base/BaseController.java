@@ -1,12 +1,3 @@
-/**
- * 
- * BaseController.java
- * 2014-12-8
- * 596570
- * 
- * Copyright ©2014 顺丰科技有限公司  All rights reserved.
- * 
- */
 package com.base;
 
 import java.sql.Timestamp;
@@ -23,7 +14,7 @@ import org.springframework.web.bind.annotation.InitBinder;
 /**
  * The Class BaseController.
  */
-@SuppressWarnings("unused")
+
 public class BaseController {
 
 	/** The Constant logger. */
